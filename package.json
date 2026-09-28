@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/scansvg",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scan HTML/Markdown svg fragments safely for docs pipelines.",
+  "bin": {
+    "scansvg": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/scansvg.git"
+  },
+  "homepage": "https://theworker02.github.io/scansvg/",
+  "keywords": [
+    "scan",
+    "svg",
+    "markup",
+    "cli",
+    "toolkit"
+  ]
+}
